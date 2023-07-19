@@ -32,3 +32,33 @@ body {
     font-size: 0.75rem;
     font-weight: 500;
 }
+
+.form {
+    padding: 36px;
+}
+
+.form--row {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.form--row_input {
+    width: 100%;
+    font-size: 0.75rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+}
+
+.form--button {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
