@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
+    color: #fff;
+    padding: 20px;
+}
+
+.header--image {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.header--title {
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+
+.header--project {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+main {
+    padding: 36px;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form--input {
+    width: 100%;
+    font-size: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+
+    font-family: 'Karla', sans-serif;
+    text-indent: 5px;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+
+    border-radius: 5px;
+    background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+
+    font-family: 'Karla', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.meme {
+    margin-top: 36px;
+}
+
+.meme--image {
+    display: block;
+    width: 100%;
+}
