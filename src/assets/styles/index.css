@@ -68,3 +68,13 @@ main {
     border: none;
     cursor: pointer;
 }
+
+.meme {
+    margin-top: 36px;
+    width: 100%;
+}
+
+.meme--image {
+    display: block;
+    width: 100%;
+}
