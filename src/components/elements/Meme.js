@@ -35,7 +35,7 @@ const Meme = () => {
             </div>
 
             <div className="meme">
-                <img src={memeImage} alt="Get meme image" className="meme--image"/>
+                <img src={memeImage} alt="Get meme" className="meme--image"/>
             </div>
         </main>
     )
