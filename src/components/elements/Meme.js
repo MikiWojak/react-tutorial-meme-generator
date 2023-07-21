@@ -7,8 +7,7 @@ const Meme = () => {
         bottomText: '',
         randomImage: 'http://i.imgflip.com/1bij.jpg'
     })
-
-    const [allMemeImages] = useState(memesData)
+    const [allMemeImages, setAllMemeImages] = useState(memesData)
 
     function getMemeImage() {
         const { data: { memes } } = allMemeImages
