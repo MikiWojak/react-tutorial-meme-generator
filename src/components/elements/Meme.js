@@ -19,7 +19,7 @@ const Meme = () => {
         getMemes()
     }, [])
 
-    function getMemeImage() {
+    const getMemeImage = () => {
         const index = Math.floor(Math.random() * allMemes.length)
         const { url } = allMemes[index];
 
@@ -29,7 +29,7 @@ const Meme = () => {
         }))
     }
 
-    function handleChange(event) {
+    const handleChange = (event) => {
         const { name, value } = event.target
 
         setMeme(prevMeme => ({
